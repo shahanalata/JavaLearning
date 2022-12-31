@@ -78,6 +78,16 @@ public class HomeworkTwo {
         } else
             return false;
     }
+
+    /*
+     * Problem :-15 Given a string, take the first 2 chars and return the string
+     * with the 2 chars added at both the front and back, so "kitten"
+     * yields"kikittenki". If the string length is less than 2, use whatever chars
+     * are there. front22("kitten") → "kikittenki" front22("Ha") → "HaHaHa"
+     * front22("abc") → "ababcab"
+     */
+
+
 /*Problem :-16
      * Given a string, if the string "del" appears starting at index 1,
      * return a string where that "del" has been deleted. Otherwise, return the string unchanged.
