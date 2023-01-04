@@ -7,12 +7,21 @@ public class HomeworkTwo {
      * → "HiHi" stringTimes("Hi", 3) → "HiHiHi" stringTimes("Hi", 1) → "Hi"
      */
 
-      /*  public void eleven () {
-            String s = "Hi";
-            int a = 2;
-            for (int i = 0; i < a; i++) {
+       public void elevenOne() {
+           String originalString = "Hi";
+           int givenNumber = 2;
+          // String newString = "";
+          originalString.concat("Hi");
 
-            }
+           for (int i = 0; i < givenNumber; i++) {
+              //newString = newString.concat(originalString);
+
+               //System.out.println(originalString.concat("Hi"));
+           }
+          // return newString;
+           System.out.println("This is from elevenOne:   "+originalString.concat("Hi"));
+         //  System.out.println("This is from elevenOne:   "+newString);
+       }
             /*
              * Problem:-12 Given a string, we'll say that the front is the first 3 chars of
              * the string, If the string length is less than 3, the front is whatever is
@@ -43,10 +52,10 @@ public class HomeworkTwo {
     public void thirteen() {
         String q = "cat";
         StringBuilder sb = new StringBuilder("cat");
-        // sb.append('t');
-        sb.append('t');
-        // System.out.println(sb);
+         sb.append('t');
+        //System.out.println("This method is from thirteen:   " + sb);
         System.out.println("t" + sb);
+
 
     }
 
@@ -113,6 +122,7 @@ public void sixteen(){
 
         public static void main (String[]args){
             HomeworkTwo ht = new HomeworkTwo();
+            ht.elevenOne();
             ht.eleven();
             ht.thirteen();
             ht.fourteen();
